@@ -1,5 +1,12 @@
-<h2>Q's</h2>
+<div class="a-q">
+  {{ask-question}}
+</div>
 
+<h2 id="a-q-head">Q's</h2>
+
+<div id="home-divide">
+<hr>
+</div>
 {{#each model as |question|}}
   {{question-tile question=question}}
 {{/each}}
