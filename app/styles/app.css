@@ -17,6 +17,9 @@
 
 #a-q-butt {
   float: right;
+  width: 100px;
+  height: 50px;
+  margin-top: 6px;
 }
 
 #a-q-save {
