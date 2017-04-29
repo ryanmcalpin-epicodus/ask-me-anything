@@ -11,7 +11,6 @@ export default Ember.Component.extend({
         alert("Please fill out all of the fields.");
       } else {
         var dt = new Date();
-        alert(this.get('question'));
         var params = {
           author: this.get('author'),
           answer: this.get('answer'),
