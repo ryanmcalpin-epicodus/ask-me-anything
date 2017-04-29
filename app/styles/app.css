@@ -18,7 +18,7 @@
   margin-top: 6px;
 }
 
-#a-q-save {
+.a-q-save {
   float: right;
 }
 
@@ -32,7 +32,7 @@
   margin-right: 5%;
 }
 
-#question {
+#question-title {
   font-weight: bold;
 }
 
@@ -49,4 +49,12 @@
 
 .cancel-butt {
   float: right;
+}
+
+.edit-butt {
+  float: right;
+}
+
+.asked-by {
+  padding-bottom: 0px;
 }

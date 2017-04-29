@@ -1,0 +1,18 @@
+{{#if editQuestion}}
+<hr>
+<form class="a-q-form">
+  <button class="btn btn-danger btn-xs cancel-butt" {{action 'cancel'}}>x</button>
+  <div class="form-group">
+    <label for="qs">Question</label>
+    {{input class="form-control" value=quest.question id="question"}}
+  </div>
+  <div class="form-group">
+    <label for="notes">More Details</label>
+    {{input class="form-control" value=quest.notes id="notes"}}
+  </div>
+  <button class="btn btn-warning a-q-save" {{action 'updateQuestion' quest}}>SAVE</button>
+</form>
+<br><hr>
+{{else}}
+  <button class="btn btn-warning edit-butt" {{action 'showForm'}}>EDIT</button>
+{{/if}}

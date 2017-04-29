@@ -1,9 +1,10 @@
 <div class="q">
-  <h2 id="question">{{model.question}}</h2>
+  {{edit-question quest=model updateQuestion="updateQuestion"}}
+  <h2 id="question-title">{{model.question}}</h2>
   <div class="panel panel-default">
     <div class="panel-body">
       {{model.notes}}
-      <div class="panel-body">
+      <div class="panel-body asked-by">
         Asked by {{model.author}} on {{model.timestamp}}
       </div>
     </div>
