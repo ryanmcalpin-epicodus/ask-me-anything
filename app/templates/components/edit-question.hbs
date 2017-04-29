@@ -8,7 +8,7 @@
   </div>
   <div class="form-group">
     <label for="notes">More Details</label>
-    {{input class="form-control" value=quest.notes id="notes"}}
+    {{textarea class="form-control" value=quest.notes id="notes"}}
   </div>
   <button class="btn btn-warning a-q-save" {{action 'updateQuestion' quest}}>SAVE</button>
 </form>
