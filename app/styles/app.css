@@ -11,10 +11,6 @@
   margin-left: 10px;
 }
 
-#a-q {
-
-}
-
 #a-q-butt {
   float: right;
   width: 100px;
@@ -30,10 +26,21 @@
   /*float: left;*/
 }
 
-#a-q-form {
-  margin-top: 30px;
+.a-q-form {
+  margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+#ans-q-butt {
+  float: right;
+  /*width: 100px;
+  height: 50px;*/
+  margin-top: 0px;
+}
+
+#ans-q-save {
+  float: right;
 }
 
 #home-divide {
