@@ -8,5 +8,14 @@
     "author": "Ry",
     "notes": "I want to know",
     "timestamp": "24:00"
+  }],
+  "answers": [{
+    "author": "Wes",
+    "answer": "IDK",
+    "timestamp": "June"
+  }, {
+    "author": "May",
+    "answer": "IRDK",
+    "timestamp": "Yesterday"    
   }]
 }

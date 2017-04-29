@@ -1,1 +1,10 @@
-{{model.question}}
+<div class="q">
+  <h3>{{model.question}}</h3>
+  <p>Asked by {{model.author}} on {{model.timestamp}}</p>
+  <hr>
+  <div class="a-q">
+    {{answer-question question=model saveAnswer="saveAnswer"}}
+  </div>
+  <h2>A's</h2>
+  {{answer-tile}}
+</div>
