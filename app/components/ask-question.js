@@ -15,7 +15,16 @@ export default Ember.Component.extend({
         timestamp: (dt.getMonth() + 1) + "/" + dt.getDate() + "/" + dt.getFullYear()
       };
       this.set('askQuestion', false);
+      this.set('question', '');
+      this.set('author', '');
+      this.set('notes', '');
       this.sendAction('saveQuestion', params);
+    },
+    cancel() {
+      this.set('askQuestion', false);
+      this.set('question', '');
+      this.set('author', '');
+      this.set('notes', '');
     }
   }
 });

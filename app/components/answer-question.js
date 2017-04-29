@@ -16,7 +16,14 @@ export default Ember.Component.extend({
         question: this.get('question')
       };
       this.set('answerQuestion', false);
+      this.set('author', '');
+      this.set('answer', '');
       this.sendAction('saveAnswer', params);
+    },
+    cancel() {
+      this.set('answerQuestion', false);
+      this.set('author', '');
+      this.set('answer', '');
     }
   }
 });

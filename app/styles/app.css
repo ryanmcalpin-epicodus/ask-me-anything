@@ -32,6 +32,10 @@
   margin-right: 5%;
 }
 
+#question {
+  font-weight: bold;
+}
+
 #ans-q-butt {
   float: right;
   /*width: 100px;
@@ -43,6 +47,6 @@
   float: right;
 }
 
-#home-divide {
-  /*margin-bottom: 20px;*/
+.cancel-butt {
+  float: right;
 }
