@@ -1,7 +1,7 @@
 {{#if askQuestion}}
   <hr>
+  <button class="btn btn-danger btn-xs cancel-butt" {{action 'cancel'}}>x</button>
   <form class="a-q-form">
-    <button class="btn btn-danger btn-xs cancel-butt" {{action 'cancel'}}>x</button>
     <div class="form-group">
       <label for="author">Your Name</label>
       {{input class="form-control" value=author id="author"}}

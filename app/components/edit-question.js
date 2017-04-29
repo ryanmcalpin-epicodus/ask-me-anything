@@ -18,7 +18,6 @@ export default Ember.Component.extend({
       };
       this.set('editQuestion', false);
       this.sendAction('updateQuestion', question, params);
-      console.log(params);
     }
   }
 });
