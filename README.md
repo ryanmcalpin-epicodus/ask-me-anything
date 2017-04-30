@@ -15,7 +15,11 @@ You will need the following things properly installed on your computer.
 ## Setup
 
 * Download or clone repository
-* Move to directory in command line and run 'npm install' and ''
+* Move to directory in command line
+* Run command 'npm install'
+* Run command 'bower install'
+* Run command 'ember s' or 'ember serve'
+* Open browser to 'localhost:4200'
 
 ## Technologies/Languages
 * HTML
