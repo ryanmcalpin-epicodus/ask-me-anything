@@ -5,6 +5,14 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.pan:hover {
+  text-decoration: none;
+}
+
+.pan .panel-heading:hover {
+  background-color: #e0d484 !important;
+}
+
 .panel-heading {
   background-color: #ede29a !important;
 }
